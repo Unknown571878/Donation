@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Do!nation</string>
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- joinmember 관련 -->
+    <!-- writing_mypage 관련 -->
+    <string name="writing_mypage_1">글 작성하기</string>
+    <!-- writing_mypage_tb 관련 -->
+    <string name="writing_mypage_tb_1">- 내가 쓴 글 목록 -</string>
+    <!-- joinmember 관련 -->
+    <string name="joinmember_tv1">Do!nation 회원가입</string>
+    <string name="joinmember_edt1">아이디</string>
+    <string name="joinmember_edt2">비밀번호</string>
+    <string name="joinmember_edt3">비밀번호 확인</string>
+    <string name="joinmember_edt4">이름</string>
+    <string name="joinmember_edt5">년</string>
+    <string name="joinmember_edt6">월</string>
+    <string name="joinmember_edt7">일</string>
+    <string name="joinmember_edt8">성별</string>
+    <string name="joinmember_edt9">닉네임</string>
+    <string name="joinmember_btn1">중복확인</string>
+    <string name="joinmember_btn2">가입</string>
+
+    <!-- login 관련 -->
+    <string name="login_tv1">로그인</string>
+    <string name="login_tv2">해외 로그인 차단</string>
+    <string name="login_tv3">타지역 로그인 차단</string>
+    <string name="login_tv4">Do!nation 로그인</string>
+    <string name="login_tv5">Google 계정으로 로그인</string>
+    <string name="login_tv6">계정을 잊으셨나요?</string>
+    <string name="login_tv7">ID/비밀번호 찾기</string>
+    <string name="login_tv8">계정이 없으신가요?</string>
+    <string name="login_tv9">회원가입</string>
+    <string name="login_tv10">Do!nation 회원가입</string>
+    <string name="login_edt1">아이디를 입력하세요</string>
+    <string name="login_edt2">비밀번호를 입력하세요</string>
+    <string name="login_cb1">아이디 저장</string>
+
+    <!-- main_page_view 관련 -->
+    <string name="main_page_tv1">나의 후원 게시글</string>
+    <string name="main_page_tv2">최근후원자</string>
+    <string name="main_page_tv3">작성한 게시글</string>
+
+    <!-- personal_security 관련 -->
+    <string name="personal_security_tv1">개인 정보</string>
+    <string name="personal_security_tv2">보안</string>
+    <string name="personal_security_btn1">개인정보 관리</string>
+    <string name="personal_security_btn2">기기 연결 관리</string>
+    <string name="personal_security_btn3">비밀번호 관리</string>
+    <string name="personal_security_tv3">2단계 인증</string>
+
+    <!-- tool 관련 -->
+    <string name="toolmenu">지역설정</string>
+    <string name="tb_menu_btn1">개인/보안</string>
+
+    <!-- user 관련 -->
+    <string name="user_btn1">수정</string>
+    <string name="user_protected_tv1">보안설정</string>
+    <string name="user_password_tv1">비밀번호</string>
+    <string name="user_tv1">내 프로필</string>
+
+    <!-- watchlist 관련 -->
+    <string name="watchlist_tb_tv1">관심목록</string>
+    <string name="watchlist_tv1">찜 목록</string>
+    <string name="watchlist_tv2">최근 본 목록</string>
+    <string name="watchlist_frag_tv1">청년의 꿈을 도와주세요</string>
+    <string name="watchlist_frag_tv2">도네이션 사용법</string>
+
+    <!-- writing 관련 -->
+    <string name="writing_tool_tv1">글쓰기</string>
+    <string name="writing_tool_tv2">완료</string>
+    <string name="writing_edt1">제목</string>
+    <string name="writing_edt2">금액</string>
+    <string name="writing_edt3">사연</string>
+    <string name="writing_btn1">파일첨부</string>
+
+    <!-- question_view 관련 -->
+    <string name="notice">공지사항</string>
+    <string name="shortcut">바로가기</string>
+    <string name="customer_center">고객센터</string>
+    <string name="operation_recommendation">운영정책</string>
+
+    <!-- notice_view 관련 -->
+    <string name="notice_view_left">총</string>
+    <string name="notice_view_right">개의 공지사항이 있습니다.</string>
+
+    <!-- option_view 관련 -->
+    <string name="option_button1">계정</string>
+    <string name="option_button2">개인/보안</string>
+    <string name="option_button3">테마</string>
+    <string name="option_button4">공지사항</string>
+    <string name="option_button5">알림</string>
+    <string name="option_button6">화면</string>
+    <string name="option_button7">언어</string>
+    <string name="option_button8">고객센터/운영정책</string>
+    <string name="manage_profiles">프로필 관리</string>
+
+    <!-- account_view 관련-->
+    <string name="account_view_text1">계정 정보</string>
+    <string name="account_view_text2">이메일</string>
+    <string name="account_view_text3">휴대폰</string>
+    <string name="account_view_button1">변경</string>
+    <string name="account_view_button2">변경</string>
+
+    <!-- 테마 관련(theme) -->
+    <string name="thema_view_radiobutton1">밝게</string>
+    <string name="thema_view_radiobutton2">어둡게</string>
+    <string name="thema_choice">테마 선택</string>
+    <string name="thema_close">닫기</string>
+    <string-array name="thema_name">
+        <item>@string/thema_view_radiobutton1</item>
+        <item>@string/thema_view_radiobutton2</item>
+    </string-array>
+
+    <!-- 언어 선택 관련 아이템 -->
+    <string name="language_choice">언어 선택</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_en">English(영어)</string>
+    <string name="language_ja">日本語(일본어)</string>
+    <string name="language_close">닫기</string>
+    <string-array name="language_name">
+        <item>@string/language_ko</item>
+        <item>@string/language_en</item>
+        <item>@string/language_ja</item>
+    </string-array>
+
+    <!-- 기타 -->
+    <string name="setting_btn">설정</string>
+    <string name="setting_btn2">게시글</string>
+    <string name="setting_btn3">홈</string>
+    <string name="setting_btn4">자주묻는 질문</string>
+    <string name="setting_btn5">기부하기</string>
+    <string name="setting_btn6">찜하기</string>
+
+
+</resources>

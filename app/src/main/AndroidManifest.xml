@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACTION_OPEN_DOCUMENT" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Donation"
+        tools:targetApi="31">
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".option.OptionActivity"/>
+        <activity android:name=".notice.NoticeActivity"/>
+        <activity android:name=".question.QuestionActivity"/>
+        <activity android:name=".etc.AccountChange"/>
+        <activity android:name=".LockActivity"/>
+        <activity android:name=".PersonalSecurityActivity"/>
+        <activity android:name=".profile_pg"/>
+        <activity android:name=".writing.writing_pg"/>
+        <activity android:name=".customer_operational.CustomerOperationalActivity"/>
+        <activity android:name=".listofwriting.ListOfWritingActivity"/>
+        <activity android:name=".etc.ChangeEmail"/>
+        <activity android:name=".etc.ChangeHandphone"/>
+        <activity android:name=".etc.ChangePassword"/>
+        <activity android:name=".ConnectingActivity"/>
+        <activity android:name=".writing.WritingViewActivity"/>
+        <activity android:name=".ProfileTwogradeActivity"/>
+        <activity android:name=".ScreensetActivity"/>
+        <activity android:name=".notice.NoticeLargeActivity"/>
+        <activity android:name=".question.QuestionLargeActivity"/>
+        <activity android:name=".customer_operational.CustomerOperationalLarge1Activity"/>
+        <activity android:name=".customer_operational.CustomerOperationalLarge2Activity"/>
+        <activity android:name=".login.JoinMemberActivity"/>
+        <activity android:name=".etc.ChangeName"/>
+        <activity android:name=".profile_pg_img"/>
+        <activity android:name=".point.PointMainActivity"/>
+        <activity android:name=".point.DonationScore"/>
+        <activity android:name=".point.Point_home"/>
+        <activity android:name=".login.FindIdPassword"/>
+        <activity android:name=".price_determin.Price_determine"/>
+        <activity android:name=".Talent.TalentActivity"/>
+        <activity android:name=".Talent.talent_writing"/>
+        <activity android:name=".Talent.talent_detail"/>
+        <activity android:name=".watchlist.WatchListActivity"/>
+        <activity android:name=".watchlist.WatchListView"/>
+        <activity android:name=".writing.Writing_change"/>
+        <activity android:name=".Talent_Chat_.Talent_Chat"/>
+        <activity android:name=".SplashActivity"/>
+        <activity android:name=".Talent.Talent_change"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+        <activity android:name=".MyEditPostList"/>
+        <activity android:name=".JoinActivity"/>
+        <activity android:name=".etc.ChangeNickName"/>
+    </application>
+</manifest>

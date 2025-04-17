@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/joinmember_tb" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:text="@string/joinmember_tv1"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/joinmember_edt1"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#E5E5E5"
+                    android:hint="@string/joinmember_edt1" />
+
+                <Button
+                    android:id="@+id/joinmember_btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="45dp"
+                    android:text="@string/joinmember_btn1" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/joinmember_edt2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="#E5E5E5"
+                android:hint="@string/joinmember_edt2"
+                android:inputType="textPassword" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/joinmember_edt3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="#E5E5E5"
+                android:hint="@string/joinmember_edt3"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/joinmember_edt4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="#E5E5E5"
+                android:hint="@string/joinmember_edt4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:paddingLeft="21dp">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#E5E5E5"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#E5E5E5"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#E5E5E5"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#E5E5E5"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:id="@+id/joinmember_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/joinmember_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/joinmember_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/joinmember_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/joinmember_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/joinmember_edt5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="#E5E5E5"
+                android:hint="@string/joinmember_edt9" />
+
+            <EditText
+                android:id="@+id/joinmember_edt6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="#E5E5E5"
+                android:hint="휴대폰 : 01012345678" />
+
+            <Button
+                android:id="@+id/joinmember_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/joinmember_btn2" />
+
+            <ImageView
+                android:id="@+id/joinmember_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

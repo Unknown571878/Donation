@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/change_talent_writing_tb"
+        layout="@layout/talent_change_tb"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="제목"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/change_talent_edt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="제목을 입력하세요"
+                    android:textStyle="italic"
+                    android:textSize="25dp"
+                    android:background="#EEEEEE"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="55dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:background="#E5E5E5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지역 설정"
+                    android:padding="5dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/black" />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/change_Tal_CorSpi"
+                    android:entries="@array/select" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:background="#E5E5E5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="재능 기부 종목"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/change_talent_edt_activity"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:hint="예) 수영강습"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:background="#E5E5E5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="사연"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/change_talent_edt_detail"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint="재능 기부 내용 작성하세요"
+                android:background="#EEEEEE"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/change_talent_filebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/writing_btn1"
+                android:layout_margin="10dp"/>
+            <ImageView
+                android:id="@+id/change_talent_imageadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/tchange_uploadactivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#C62828"
+                android:text="등록하기"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/change_talent_writing_region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/change_talent_userNickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/change_talent_writing_userimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tb_main"
+        layout="@layout/toolmenu" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <Button
+            android:id="@+id/writing_page"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/writing_tool_tv1"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+</LinearLayout>

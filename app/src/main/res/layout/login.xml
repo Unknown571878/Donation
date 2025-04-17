@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:gravity="center"
+                android:text="@string/login_tv4"
+                android:textSize="30dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:id="@+id/login_edt_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="@string/login_edt1">
+
+            </EditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_edt_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="@string/login_edt2"
+                android:inputType="textPassword"></com.google.android.material.textfield.TextInputEditText>
+
+            <CheckBox
+                android:id="@+id/login_chk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text=" 자동 로그인" />
+
+            <Button
+                android:id="@+id/login_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/login_tv1"
+                android:textStyle="bold">
+
+            </Button>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="@string/login_tv6">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/login_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="비밀번호 찾기"
+                    android:textColor="#4C3FF7">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="120dp"
+                    android:gravity="center"
+                    android:text="@string/login_tv8">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/login_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="@string/login_tv9"
+                    android:textColor="#4C3FF7">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

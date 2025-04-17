@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "805468819266",
+    "firebase_url": "https://heomwork-default-rtdb.firebaseio.com",
+    "project_id": "heomwork",
+    "storage_bucket": "heomwork.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805468819266:android:4055bf18856887d97f42db",
+        "android_client_info": {
+          "package_name": "com.example.donation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805468819266-k6t01e93df4b9jev7bibo384p2o5r3vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donation",
+            "certificate_hash": "43c8be5d1bac6860493b7d580cd9bf56716a06a5"
+          }
+        },
+        {
+          "client_id": "805468819266-4q7496umv6h28msvgsh5jg92vron369j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeaX1Yy3Ri0bMr0fFRqS_wtw4EccQxBEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805468819266-4q7496umv6h28msvgsh5jg92vron369j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

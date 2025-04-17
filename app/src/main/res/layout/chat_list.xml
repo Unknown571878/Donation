@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <include
+        layout="@layout/chat_list_tb"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/chat_list_btn1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/baseline_add_24"/>
+            <EditText
+                android:id="@+id/edt_chat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/chat_send"
+                android:text="전송"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/chat_list_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

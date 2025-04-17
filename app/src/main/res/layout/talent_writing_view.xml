@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <include
+        layout="@layout/talent_writing_view_tb"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/talent_swiperefreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+            <TextView
+                android:id="@+id/talent_Viewtitle"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="글 제목이 들어갈 부분"
+                android:textSize="40dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"
+                android:layout_margin="5dp"/>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/talent_writing_view_userimg"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/baseline_person_24" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/talent_writing_view_nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="닉네임"/>
+
+                    <TextView
+                        android:id="@+id/talent_Viewdateandtime"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="yyyy.mm.dd. hh:mm"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="지역:" />
+
+                        <TextView
+                            android:id="@+id/talent_writing_view_loc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:hint="지역명" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_marginRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="활동 :"/>
+                        <TextView
+                            android:id="@+id/talent_Viewactivity"
+                            android:layout_marginRight="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000"/>
+                <TextView
+                    android:id="@+id/talent_Viewdetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문
+게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문
+게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문
+게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문
+게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문
+게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문 게시글 본문"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000"/>
+                <ImageView
+                    android:id="@+id/talent_writing_view_mainimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"/>
+                    <TextView
+                        android:id="@+id/applyuser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"/>
+
+                    <Button
+                        android:id="@+id/talent_GibuButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="재능기부받기" />
+                    <Button
+                        android:id="@+id/talent_chatButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="기부 채팅"
+                        android:visibility="invisible"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

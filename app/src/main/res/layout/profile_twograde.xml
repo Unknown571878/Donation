@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/profile_twograde_tb" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="보안 설정"
+        android:textSize="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#E5E5E5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="2단계 인증"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#E5E5E5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="회원님이 허락할 때만 로그인되도록 '2단계 인증을 설정해 두십시오." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="아이디, 비밀번호 입력" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/baseline_navigate_next_24"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="앱 인증알림 승인" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/baseline_navigate_next_24"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="로그인 완료!" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="다음" />
+
+</LinearLayout>

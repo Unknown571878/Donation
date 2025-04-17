@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/profile_tb"
+        layout="@layout/profile_tool"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_ig"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                app:civ_border_overlay="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#000000"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/profile_user_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="11111111"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/profile_user_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="1111111" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/layout_corner_c2"
+                android:orientation="vertical">
+
+                <include layout="@layout/edit_profile"/>
+
+                <include layout="@layout/user_name" />
+                <include layout="@layout/user_email" />
+                <include layout="@layout/user_phone" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

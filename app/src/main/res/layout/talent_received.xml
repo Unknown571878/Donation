@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/talent_writing_tb"
+        layout="@layout/talent_writing_tool"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="이름"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/talent_edt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="홍길동"
+                    android:textStyle="italic"
+                    android:textSize="25dp"
+                    android:background="#EEEEEE"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="약속유형 : "
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <Spinner
+                    android:id="@+id/on_off"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:background="#E5E5E5"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="약속장소"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="원하는 대면 장소 작성"
+                    android:textStyle="italic"
+                    android:textSize="25dp"
+                    android:background="#EEEEEE"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="자기소개"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/talent_edt_detail"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint="재능 기부 어떤점을 받고 싶은지
+                내용 작성하세요."
+                android:background="#EEEEEE"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/talent_imageadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/uploadactivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#718234"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:text="등록하기" />
+            <TextView
+                android:id="@+id/talent_writing_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/option_ll1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/option_view_tb"/>
+
+
+    <View
+        android:id="@+id/option_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        />
+    <Button
+        android:id="@+id/option_listview_button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/icon_person_outline_24"
+        android:gravity="left|center"
+        android:text="@string/option_button1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/clear_button"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#E5E5E5"/>
+
+    <Button
+        android:id="@+id/option_listview_button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/icon_gpp_good_24"
+        android:gravity="left|center"
+        android:text="@string/option_button2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/clear_button" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#E5E5E5"/>
+
+
+    <Button
+        android:id="@+id/option_listview_button4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/icon_create_65"
+        android:gravity="left|center"
+        android:text="@string/option_button4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/clear_button" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#E5E5E5"/>
+
+    <Button
+        android:id="@+id/option_listview_button8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/icon_question_mark_24"
+        android:gravity="left|center"
+        android:text="@string/option_button8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/clear_button"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="#E5E5E5"/>
+
+</LinearLayout>
