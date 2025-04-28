@@ -10,7 +10,7 @@ public class FcmPush {
 
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     private String url = "https://fcm.googleapis.com/fcm/send";
-    private String serverKey = "AAAAu4muz0I:APA91bEkNJoisVPcr9bLIWWPc2_QJ24qzOw4S1CoLRfpawnpe20kubWn5nAP3TKRSscXfQwumbSeBQPGNDc7z9TmXpyRME1otAzyeZzFRbs-UQmtm3f5rUhWEERXQTPIhZcEaBrBk1sO";
+    private String serverKey = "APIkey";
     private Gson gson;
     private OkHttpClient okHttpClient;
 
